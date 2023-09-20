@@ -19,10 +19,10 @@ Approach used:
 >df1 = pd.read_csv("Bengaluru_House_Data.csv") <br/>
 >df1.head()
 
-![sample](https://github.com/lakshayd760/House_Price_Prediction/Images/Annotation%202023-09-19%20150948.png)
+![sample](https://github.com/lakshayd760/House_Price_Prediction/blob/main/Images/Annotation%202023-09-19%20150948.png)
 
 3. After preprocessing our data will look like:
-![](https://github.com/lakshayd760/House_Price_Prediction/Images/Annotation%202023-09-19%20152105.png)
+![](https://github.com/lakshayd760/House_Price_Prediction/blob/main/Images/Annotation%202023-09-19%20152105.png)
 4.  After preprocessing the data we can train the model using:
 > from sklearn.linearmodel import LinearRegression<br/>
 > lr_clf = LinearRegression() <br/>
@@ -38,6 +38,6 @@ Approach used:
 >cv = ShuffleSplit(n_splits=5, test_size=0.2, random_state=0) <br/>
 
 >cross_val_score(LinearRegression(), X, y, cv=cv) <br/>
-![](https://github.com/lakshayd760/Bengaluru_House_Price_Prediction/blob/main/Annotation%202023-09-19%20152351.png)
+![](https://github.com/lakshayd760/House_Price_Prediction/blob/main/Images/Annotation%202023-09-19%20152351.png)
 
 we can also make a model using deep learning architecture by using dense layers and for output we can use a single neuron with linear activation function 
